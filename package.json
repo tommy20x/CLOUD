@@ -1,0 +1,69 @@
+{
+  "name": "vuetify-material-dashboard",
+  "version": "2.1.0",
+  "private": true,
+  "engines": {
+    "node": "14.x",
+    "npm": "6.14.9"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vue-cli-service serve --open --fix",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --fix",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
+    "now-start": "vue-cli-service serve",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "dependencies": {
+    "apexcharts": "^3.23.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.4",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "serve-static": "^1.14.1",
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.6.0",
+    "vue-i18n": "^8.15.3",
+    "vue-router": "^3.1.6",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.3",
+    "@vue/cli-plugin-e2e-cypress": "^4.2.3",
+    "@vue/cli-plugin-router": "^4.2.3",
+    "@vue/cli-plugin-unit-jest": "^4.2.3",
+    "@vue/cli-service": "^4.2.3",
+    "@vue/eslint-config-prettier": "6.0.0",
+    "@vue/eslint-config-standard": "^5.0.1",
+    "@vue/test-utils": "1.0.0-beta.30",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^24.9.0",
+    "es6-promise": "4.2.8",
+    "eslint": "^6.8.0",
+    "eslint-config-vuetify": "^0.6.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "1.19.1",
+    "sass": "^1.26.2",
+    "sass-loader": "^8.0.2",
+    "vee-validate": "^3.2.2",
+    "vue-cli-plugin-i18n": "^0.6.0",
+    "vue-cli-plugin-vuetify": "^2.0.9",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.4.3",
+    "minimist": "^1.2.5",
+    "yargs-parser": "^18.1.2",
+    "lodash": "^4.17.19"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5",
+    "yargs-parser": "^18.1.2",
+    "lodash": "^4.17.19"
+  }
+}
